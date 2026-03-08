@@ -1,4 +1,4 @@
-Overview
+## Overview
 
 This is a Python implementation of Flappy Bird using Pygame, with two modes:
 
@@ -6,7 +6,7 @@ Manual Mode – Play with the spacebar to flap and navigate the bird through pip
 
 Auto Mode (AI) – The game uses a neuroevolution AI to train multiple birds simultaneously. Each generation evolves via a genetic algorithm to improve performance over time.
 
-Features
+## Features
 Manual Mode
 
 Play like the classic Flappy Bird game.
@@ -27,12 +27,12 @@ Fitness is based on pipes passed + survival time.
 
 Displays generation number, alive birds, pipes passed, and best fitness.
 
-Automatic evolution:
+## Automatic evolution:
 
 Dead birds are replaced by new generation.
 
 Best-performing birds are carried over to next generation (elitism).
-Installation
+## Installation
 
 Clone the repository:
 
@@ -46,7 +46,7 @@ Ensure the assets folder contains:
 
 background2.png, ground.png, ready.png, press.png, bronze_medal.png, silver_medal.png, gold_medal.png, platinum_medal.png
 
-The AI mode will continuously evolve generations of birds and display statistics:
+## The AI mode will continuously evolve generations of birds and display statistics:
 
 Gen: Current generation
 
@@ -55,7 +55,7 @@ Pipes: Pipes passed by the best bird in this generation
 Alive: Number of alive birds
 
 Best Fit: Fitness score of the best bird
-AI Implementation
+## AI Implementation
 
 Neural Network Inputs:
 
